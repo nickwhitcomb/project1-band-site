@@ -3,15 +3,14 @@
 }
 
 .paddedTitle {
-    /* margin-top: 0.5rem; */
+    
     text-align: center;
     background: cyan;
     opacity: 0.7;
     max-width: 100%;
     padding-top: 2px;
     padding-bottom: 5px;
-    /* float: right;        */
-    /* position: absolute; */
+    
 }
 
 body.home {
@@ -42,15 +41,31 @@ h2 {
     font-family: 'Yeon Sung', cursive;
 }
 
+h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
 #aboutPic {
-    padding-right: 5rem;
+    max-width: 82%;
 }
 
 .nonHome {
     padding-top: 0.5rem;
 }
 
-.leftColumn {
-    padding-left: 1.5rem;
+/* .leftColumn {
+    padding-left: 2.5rem;
+} */
+
+p {
+    max-width: 100%;
+    padding: 0 1.5rem;
+}
+.aboutPic {
+    padding-bottom: 0.5rem;
 }
 
+/* #iFrames {
+    padding-left: 4.5rem;
+} */
