@@ -24,6 +24,10 @@ body.home {
 
 }
 
+body.music {
+    background: #343a40!important;
+}
+
 html {
 	height: 100%;
 }
@@ -69,3 +73,11 @@ p {
 /* #iFrames {
     padding-left: 4.5rem;
 } */
+
+table {
+    background: #343a40!important;
+}
+
+a {
+    color: #17a2b8;
+}
