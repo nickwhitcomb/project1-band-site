@@ -13,7 +13,7 @@
     
 }
 
-body.home {
+.homeBody {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.1)
@@ -24,18 +24,19 @@ body.home {
 
 }
 
-body.music {
-    background: #343a40!important;
+.aboutBody {
+    padding-top: 5rem;
 }
+
 
 html {
 	height: 100%;
 }
 
-.noMarginRow {
+/* .noMarginRow {
     margin-right: 0;
     position: relative;
-}
+} */
 
 h1 {
     font-family: 'Oswald', sans-serif;
@@ -58,10 +59,6 @@ h5 {
     padding-top: 0.5rem;
 }
 
-/* .leftColumn {
-    padding-left: 2.5rem;
-} */
-
 p {
     max-width: 100%;
     padding: 0 1.5rem;
@@ -70,10 +67,6 @@ p {
     padding-bottom: 0.5rem;
 }
 
-/* #iFrames {
-    padding-left: 4.5rem;
-} */
-
 table {
     background: #343a40!important;
 }
@@ -81,3 +74,4 @@ table {
 a {
     color: #17a2b8;
 }
+
